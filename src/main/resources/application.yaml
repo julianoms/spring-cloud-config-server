@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:///home/juliano/Documents/udemy/microservices-18min/git-local-config-repo
+
+
+server:
+  port: 8888
